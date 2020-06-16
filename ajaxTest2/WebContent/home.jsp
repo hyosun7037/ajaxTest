@@ -101,8 +101,9 @@
 						"						<td>"+players.playerName+"</td>\r\n" + 
 						"					</tr>";
 						$("#findPlayerList").append(string);		
-
+			
 				}
+				$("#findPlayer").empty();
 			}).fail(function(error){
 				alert("실패");
 			});
